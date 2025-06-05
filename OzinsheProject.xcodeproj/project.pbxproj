@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091A435CA0E0C34E9E77586A /* Pods_OzinsheProject_OzinsheProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAFF9954F0D3770BC6F492 /* Pods_OzinsheProject_OzinsheProjectUITests.framework */; };
+		332B40BC4A1065BACCC62927 /* Pods_OzinsheProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E26AC42826B340DF1DDDF67 /* Pods_OzinsheProjectTests.framework */; };
+		A5333B6988B6C9F91E506BC9 /* Pods_OzinsheProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A41CDE5E0E5039314378008 /* Pods_OzinsheProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B15C9822DDF4F1A00144623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B15C9632DDF4F1800144623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B15C96A2DDF4F1800144623;
+			remoteInfo = OzinsheProject;
+		};
+		3B15C98C2DDF4F1A00144623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B15C9632DDF4F1800144623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B15C96A2DDF4F1800144623;
+			remoteInfo = OzinsheProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BDF7080ED27F14F0F6C6582 /* Pods-OzinsheProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OzinsheProjectTests.release.xcconfig"; path = "Target Support Files/Pods-OzinsheProjectTests/Pods-OzinsheProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E26AC42826B340DF1DDDF67 /* Pods_OzinsheProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OzinsheProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B15C96B2DDF4F1800144623 /* OzinsheProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OzinsheProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B15C9812DDF4F1A00144623 /* OzinsheProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OzinsheProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B15C98B2DDF4F1A00144623 /* OzinsheProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OzinsheProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AAFF9954F0D3770BC6F492 /* Pods_OzinsheProject_OzinsheProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OzinsheProject_OzinsheProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A41CDE5E0E5039314378008 /* Pods_OzinsheProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OzinsheProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A42724AD3472E3579401960 /* Pods-OzinsheProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OzinsheProject.release.xcconfig"; path = "Target Support Files/Pods-OzinsheProject/Pods-OzinsheProject.release.xcconfig"; sourceTree = "<group>"; };
+		927B3231EE006FF417536DA4 /* Pods-OzinsheProject-OzinsheProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OzinsheProject-OzinsheProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-OzinsheProject-OzinsheProjectUITests/Pods-OzinsheProject-OzinsheProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4B1E66C3B5E9177EB2CC072 /* Pods-OzinsheProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OzinsheProject.debug.xcconfig"; path = "Target Support Files/Pods-OzinsheProject/Pods-OzinsheProject.debug.xcconfig"; sourceTree = "<group>"; };
+		BD0B41E4207A287FF2A8237D /* Pods-OzinsheProject-OzinsheProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OzinsheProject-OzinsheProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-OzinsheProject-OzinsheProjectUITests/Pods-OzinsheProject-OzinsheProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAA88CB8D06BED563768B0CB /* Pods-OzinsheProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OzinsheProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-OzinsheProjectTests/Pods-OzinsheProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3B15C9932DDF4F1A00144623 /* Exceptions for "OzinsheProject" folder in "OzinsheProject" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3B15C96A2DDF4F1800144623 /* OzinsheProject */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3B15C96D2DDF4F1800144623 /* OzinsheProject */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3B15C9932DDF4F1A00144623 /* Exceptions for "OzinsheProject" folder in "OzinsheProject" target */,
+			);
+			path = OzinsheProject;
+			sourceTree = "<group>";
+		};
+		3B15C9842DDF4F1A00144623 /* OzinsheProjectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OzinsheProjectTests;
+			sourceTree = "<group>";
+		};
+		3B15C98E2DDF4F1A00144623 /* OzinsheProjectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OzinsheProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B15C9682DDF4F1800144623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5333B6988B6C9F91E506BC9 /* Pods_OzinsheProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B15C97E2DDF4F1A00144623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332B40BC4A1065BACCC62927 /* Pods_OzinsheProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B15C9882DDF4F1A00144623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091A435CA0E0C34E9E77586A /* Pods_OzinsheProject_OzinsheProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B15C9622DDF4F1800144623 = {
+			isa = PBXGroup;
+			children = (
+				3B15C96D2DDF4F1800144623 /* OzinsheProject */,
+				3B15C9842DDF4F1A00144623 /* OzinsheProjectTests */,
+				3B15C98E2DDF4F1A00144623 /* OzinsheProjectUITests */,
+				3B15C96C2DDF4F1800144623 /* Products */,
+				6DCAC3E89D85E5EAA9A4E579 /* Pods */,
+				E88606AA519364C6840162B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B15C96C2DDF4F1800144623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B15C96B2DDF4F1800144623 /* OzinsheProject.app */,
+				3B15C9812DDF4F1A00144623 /* OzinsheProjectTests.xctest */,
+				3B15C98B2DDF4F1A00144623 /* OzinsheProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DCAC3E89D85E5EAA9A4E579 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4B1E66C3B5E9177EB2CC072 /* Pods-OzinsheProject.debug.xcconfig */,
+				7A42724AD3472E3579401960 /* Pods-OzinsheProject.release.xcconfig */,
+				927B3231EE006FF417536DA4 /* Pods-OzinsheProject-OzinsheProjectUITests.debug.xcconfig */,
+				BD0B41E4207A287FF2A8237D /* Pods-OzinsheProject-OzinsheProjectUITests.release.xcconfig */,
+				EAA88CB8D06BED563768B0CB /* Pods-OzinsheProjectTests.debug.xcconfig */,
+				0BDF7080ED27F14F0F6C6582 /* Pods-OzinsheProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E88606AA519364C6840162B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A41CDE5E0E5039314378008 /* Pods_OzinsheProject.framework */,
+				49AAFF9954F0D3770BC6F492 /* Pods_OzinsheProject_OzinsheProjectUITests.framework */,
+				0E26AC42826B340DF1DDDF67 /* Pods_OzinsheProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B15C96A2DDF4F1800144623 /* OzinsheProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B15C9942DDF4F1A00144623 /* Build configuration list for PBXNativeTarget "OzinsheProject" */;
+			buildPhases = (
+				1548213793C64C5F32FB7A5E /* [CP] Check Pods Manifest.lock */,
+				3B15C9672DDF4F1800144623 /* Sources */,
+				3B15C9682DDF4F1800144623 /* Frameworks */,
+				3B15C9692DDF4F1800144623 /* Resources */,
+				BA5B626A6919D9345ECBD4CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3B15C96D2DDF4F1800144623 /* OzinsheProject */,
+			);
+			name = OzinsheProject;
+			productName = OzinsheProject;
+			productReference = 3B15C96B2DDF4F1800144623 /* OzinsheProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B15C9802DDF4F1A00144623 /* OzinsheProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B15C9992DDF4F1A00144623 /* Build configuration list for PBXNativeTarget "OzinsheProjectTests" */;
+			buildPhases = (
+				8C28F889FC9E9524F790D08B /* [CP] Check Pods Manifest.lock */,
+				3B15C97D2DDF4F1A00144623 /* Sources */,
+				3B15C97E2DDF4F1A00144623 /* Frameworks */,
+				3B15C97F2DDF4F1A00144623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B15C9832DDF4F1A00144623 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B15C9842DDF4F1A00144623 /* OzinsheProjectTests */,
+			);
+			name = OzinsheProjectTests;
+			productName = OzinsheProjectTests;
+			productReference = 3B15C9812DDF4F1A00144623 /* OzinsheProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B15C98A2DDF4F1A00144623 /* OzinsheProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B15C99C2DDF4F1A00144623 /* Build configuration list for PBXNativeTarget "OzinsheProjectUITests" */;
+			buildPhases = (
+				F5EDAFD3EF598FAB0205CAE2 /* [CP] Check Pods Manifest.lock */,
+				3B15C9872DDF4F1A00144623 /* Sources */,
+				3B15C9882DDF4F1A00144623 /* Frameworks */,
+				3B15C9892DDF4F1A00144623 /* Resources */,
+				575ECD3F3EE7AD4B0C0FD11E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B15C98D2DDF4F1A00144623 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B15C98E2DDF4F1A00144623 /* OzinsheProjectUITests */,
+			);
+			name = OzinsheProjectUITests;
+			productName = OzinsheProjectUITests;
+			productReference = 3B15C98B2DDF4F1A00144623 /* OzinsheProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B15C9632DDF4F1800144623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3B15C96A2DDF4F1800144623 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3B15C9802DDF4F1A00144623 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3B15C96A2DDF4F1800144623;
+					};
+					3B15C98A2DDF4F1A00144623 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3B15C96A2DDF4F1800144623;
+					};
+				};
+			};
+			buildConfigurationList = 3B15C9662DDF4F1800144623 /* Build configuration list for PBXProject "OzinsheProject" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B15C9622DDF4F1800144623;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3B15C96C2DDF4F1800144623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B15C96A2DDF4F1800144623 /* OzinsheProject */,
+				3B15C9802DDF4F1A00144623 /* OzinsheProjectTests */,
+				3B15C98A2DDF4F1A00144623 /* OzinsheProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B15C9692DDF4F1800144623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B15C97F2DDF4F1A00144623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B15C9892DDF4F1A00144623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1548213793C64C5F32FB7A5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OzinsheProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		575ECD3F3EE7AD4B0C0FD11E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OzinsheProject-OzinsheProjectUITests/Pods-OzinsheProject-OzinsheProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OzinsheProject-OzinsheProjectUITests/Pods-OzinsheProject-OzinsheProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OzinsheProject-OzinsheProjectUITests/Pods-OzinsheProject-OzinsheProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C28F889FC9E9524F790D08B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OzinsheProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5B626A6919D9345ECBD4CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OzinsheProject/Pods-OzinsheProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OzinsheProject/Pods-OzinsheProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OzinsheProject/Pods-OzinsheProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5EDAFD3EF598FAB0205CAE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OzinsheProject-OzinsheProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B15C9672DDF4F1800144623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B15C97D2DDF4F1A00144623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B15C9872DDF4F1A00144623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B15C9832DDF4F1A00144623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B15C96A2DDF4F1800144623 /* OzinsheProject */;
+			targetProxy = 3B15C9822DDF4F1A00144623 /* PBXContainerItemProxy */;
+		};
+		3B15C98D2DDF4F1A00144623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B15C96A2DDF4F1800144623 /* OzinsheProject */;
+			targetProxy = 3B15C98C2DDF4F1A00144623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B15C9952DDF4F1A00144623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B1E66C3B5E9177EB2CC072 /* Pods-OzinsheProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OzinsheProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SDU.OzinsheProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B15C9962DDF4F1A00144623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A42724AD3472E3579401960 /* Pods-OzinsheProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OzinsheProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SDU.OzinsheProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B15C9972DDF4F1A00144623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B15C9982DDF4F1A00144623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B15C99A2DDF4F1A00144623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA88CB8D06BED563768B0CB /* Pods-OzinsheProjectTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SDU.OzinsheProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OzinsheProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OzinsheProject";
+			};
+			name = Debug;
+		};
+		3B15C99B2DDF4F1A00144623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BDF7080ED27F14F0F6C6582 /* Pods-OzinsheProjectTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SDU.OzinsheProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OzinsheProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OzinsheProject";
+			};
+			name = Release;
+		};
+		3B15C99D2DDF4F1A00144623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927B3231EE006FF417536DA4 /* Pods-OzinsheProject-OzinsheProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SDU.OzinsheProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OzinsheProject;
+			};
+			name = Debug;
+		};
+		3B15C99E2DDF4F1A00144623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0B41E4207A287FF2A8237D /* Pods-OzinsheProject-OzinsheProjectUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SDU.OzinsheProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OzinsheProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B15C9662DDF4F1800144623 /* Build configuration list for PBXProject "OzinsheProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B15C9972DDF4F1A00144623 /* Debug */,
+				3B15C9982DDF4F1A00144623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B15C9942DDF4F1A00144623 /* Build configuration list for PBXNativeTarget "OzinsheProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B15C9952DDF4F1A00144623 /* Debug */,
+				3B15C9962DDF4F1A00144623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B15C9992DDF4F1A00144623 /* Build configuration list for PBXNativeTarget "OzinsheProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B15C99A2DDF4F1A00144623 /* Debug */,
+				3B15C99B2DDF4F1A00144623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B15C99C2DDF4F1A00144623 /* Build configuration list for PBXNativeTarget "OzinsheProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B15C99D2DDF4F1A00144623 /* Debug */,
+				3B15C99E2DDF4F1A00144623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B15C9632DDF4F1800144623 /* Project object */;
+}
