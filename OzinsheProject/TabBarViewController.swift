@@ -17,15 +17,15 @@ class TabBarViewController: UITabBarController {
   func forTabs() {
     let homeVC = HomeViewController()
     let searchVC = SearchViewController()
-    let profileVC = ProfileViewController()
     let favouriteVC = FavouriteViewController()
+    let profileVC = ProfileViewController()
 
     homeVC.tabBarItem = UITabBarItem(title: "", image: UIImage(named: "Home"), selectedImage: UIImage(named: "Home_Clicked"))
     searchVC.tabBarItem = UITabBarItem(title: "", image: UIImage(named: "Search"), selectedImage: UIImage(named: "Search_Clicked"))
-    profileVC.tabBarItem = UITabBarItem(title: "", image: UIImage(named: "Profile"), selectedImage: UIImage(named: "Profile_Clicked"))
     favouriteVC.tabBarItem = UITabBarItem(title: "", image: UIImage(named: "Favourite"), selectedImage: UIImage(named: "Favourite_Clicked"))
+    profileVC.tabBarItem = UITabBarItem(title: "", image: UIImage(named: "Profile"), selectedImage: UIImage(named: "Profile_Clicked"))
 
-    setViewControllers([homeVC, searchVC, profileVC, favouriteVC], animated: true)
+    setViewControllers([homeVC, searchVC, favouriteVC, profileVC], animated: true)
   }
 
 }
